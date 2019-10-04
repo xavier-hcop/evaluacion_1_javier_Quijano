@@ -17,4 +17,7 @@ Route::get('/', function () {
 Route::get('Inicio', function () {
     return view('Inicio');
 });
+Route::get('oscar', function () {
+    return view('oscar');
+});
 
